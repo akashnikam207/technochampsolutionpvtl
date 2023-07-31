@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.akash {
+    color: white;
+    margin: 200px;
+    margin-top: 10px;
+    padding: 33px;
+    text-align: center;
+    justify-content: center;
+}
+.client-item{
+    border: 3px solid white;
+    width: 450px;
+    height: 150px;
+    
+    justify-content: center;
+    margin: 200px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding: 23px;
+    text-align: center;
+
+}
+.client-item img{
+    
+    width: 150px;
+    border-radius: 53px;
+    height: 150px;
+    display: flex;
+       
+}
+.client-item h4{
+
+    display: flex;
+    margin-left: 5.5cm;
+    font-size: 33px;
+    margin-top: -140px; 
+       
+}
+.client-item h3{
+
+    display: flex;
+    margin-left: 5.5cm;
+    
+    margin-top: -20px; 
+       
+}

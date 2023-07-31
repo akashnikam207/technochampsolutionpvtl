@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(8, 8, 101);
+}
+/*Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+/*Navigation Bar logo and image*/
+#logo{
+    margin: 10px 3px ;
+
+}
+#logo img{
+    border: 2px solid rgb(174, 160, 160);
+    border-radius: 33px;
+    height: 60px;
+    margin: 3px 3px ;
+    padding: 3px 3px;
+}
+
+/* Navigation Bar list style*/
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    
+
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px ;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+/*Section Home*/
+
+#home{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    padding: 3px;
+    margin: 10px 23px;
+
+
+}
+#home::before{
+    content: "";
+    background: url('home.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 74%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    padding: 230x;
+    margin: 23px;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*Services section*/
+.h-primarycenter{
+    color: white;
+    margin: 34px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+#courses{
+    background-color: rgb(48, 48, 99);
+    height: 870px;
+    
+}
+.box a {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+  }
+  
+.box a a:hover {
+    background-color: #0056b3;
+  }
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 32px;
+    margin: 23px;
+    border-radius: 23px;
+    background-color: rgb(247, 222, 207);
+
+
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    border-radius: 200px;
+
+}
+
+/*client section*/
+#about{
+
+    height: 344px;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#client-item{
+    margin: 10px 3px ;
+
+}
+
+#client-item img{
+  /*   border: 2px solid rgb(174, 160, 160);
+    border-radius: 33px;
+   height: 60px;
+    margin: 3px 3px ;
+    padding: 3px 3px;*/
+    margin: 23px;
+    padding: 23px;
+    width: 153px;
+    height: 33px;
+
+}
+/*#clients-item{
+    padding: 39px;
+}*/
+#clients-item, h4 {
+    border: 3px solid rgb(249, 247, 247);
+    margin: 23px;
+    padding: 23px;
+    width: 153px;
+    height: 33px;
+}
+
+
+/*Contact section*/
+
+/* Contact Section Styles */
+#contact {
+    background-color: #473271;
+    color: #efeaea;
+    padding: 50px;
+    text-align: center;
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 12px 9px;
+
+}
+.center{
+    text-align: center;
+}
+
+
+
+/* Contact Form*/
